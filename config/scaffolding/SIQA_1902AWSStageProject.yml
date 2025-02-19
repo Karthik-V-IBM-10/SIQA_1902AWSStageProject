@@ -11,34 +11,14 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
-- serviceName: project.siqa_1902awsstage.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
-  packages:
-  - name: SIQA_1902AWSStageProject
-    version: "1.0"
-- serviceName: project.siqa_1902awsstage.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
-  packages:
-  - name: SIQA_1902AWSStageProject
-    version: "1.0"
 - serviceName: project.siqa_1902awsstage.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_1902AWSStageProject
     version: "1.0"
-- serviceName: project.siqa_1902awsstage.integrations:deepclonetest
+- serviceName: project.siqa_1902awsstage.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:test
   packages:
   - name: SIQA_1902AWSStageProject
     version: "1.0"
-- serviceName: pub.string:stringToBytes
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2027
-- serviceName: pub.utils:deepClone
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2027
-- serviceName: pub.string:bytesToString
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2027
 configurationVariables:
   ? artConnection.SIQA_1902AWSStageProject.project.siqa_1902awsstage.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupBackoffSecs
   : "10"
