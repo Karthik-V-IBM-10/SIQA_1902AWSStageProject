@@ -20,11 +20,6 @@ packages:
   gitUrl: https://github.com/prabhakarsag
   gitUsername: prabhakarsag
   gitBranch: main
-- name: packY
-  gitServerName: SIQAPsurGit
-  gitUrl: https://github.com/prabhakarsag
-  gitUsername: prabhakarsag
-  gitBranch: main
 services:
 - serviceName: project.siqa_1902awsstage.integrations:SIQAAdapterFlow
   packages:
