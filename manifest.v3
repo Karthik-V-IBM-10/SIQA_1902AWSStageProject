@@ -9,18 +9,17 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="SSL_JDBC_Test">1.0</value>
-    <value name="PackX">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">16</value>
+  <value name="build">17</value>
   <null name="description"/>
   <value name="created_date">19-02-2025 10:25:24 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-02-19T10:38:44.580299925Z</value>
+  <value name="lastUpdated">2025-02-19T10:38:48.23412235Z</value>
   <value name="wmProjectId">fl1dfac7fd110b7f143c716b</value>
   <value name="creator">siqadeveloper siqadeveloper</value>
 </Values>
